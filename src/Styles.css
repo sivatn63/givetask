@@ -1,0 +1,66 @@
+.income-btn {
+    background: none;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: lightgreen;
+    font-weight: 600;
+    color: green;
+}
+.expense-btn {
+    background: none;
+    width: 50%;
+    background-color: lightsalmon;
+    border: none;
+    color: red;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 5px;
+}
+.input-field {
+    background: none;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 5px;
+}
+.action-view-btn {
+    background: none;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+.action-del-btn {
+    background: none;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+    background-color: red;
+}
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .transaction-buttons button {
+    margin-left: 10px;
+  }
+  .card{
+    padding: 15px;
+    border: none !important;
+  }
+  .body {
+    height: 100vh;
+    padding: 30px;
+    /* background: linear-gradient(to right,blue 10%, white 80%, blue); */
+    background-color: #F3F8FF;
+  }
+  label {
+    font-weight: 600;
+  }
